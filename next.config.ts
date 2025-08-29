@@ -1,7 +1,16 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
+
+import './env.ts'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  async rewrites() {
+    return [
+      {
+        source: '/admin',
+        destination: '/admin/blocks'
+      }
+    ]
+  }
+}
 
-export default nextConfig;
+export default nextConfig
