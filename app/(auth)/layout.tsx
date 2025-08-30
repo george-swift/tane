@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Placeholder from '@/assets/images/placeholder.svg'
+import TaneLogin from '@/assets/images/tane-login.svg'
 import TaneLogo from '@/assets/images/tane-logo.svg'
 
 interface AuthLayoutProps {
@@ -26,10 +26,14 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
       </div>
       <div className="relative hidden items-center justify-center p-10 lg:flex lg:border-l lg:border-gray-200">
         <Image
-          src={Placeholder}
-          alt="Tane app"
+          src={TaneLogin}
+          alt="Fitness coach using Tane to organize their links"
           className="size-full rounded-3xl object-cover"
         />
+        <div className="font-poppins leading-11 absolute bottom-[88px] left-[79px] text-balance text-[32px] font-medium tracking-[0.5%] text-white">
+          <p>Everything you want to share,</p>
+          <p>in one place.</p>
+        </div>
       </div>
     </div>
   )
