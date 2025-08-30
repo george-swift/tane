@@ -1,6 +1,8 @@
+import { PersonalInformationForm } from '@/components/personal-information-form'
+
 export default function AdminBlocksPage() {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex h-full flex-col gap-8">
       <select
         id="tab-select"
         className="focus:border-accent focus:ring-accent block w-full rounded-lg border border-gray-200 bg-white px-4 py-3 pe-9 text-sm sm:hidden"
@@ -77,13 +79,9 @@ export default function AdminBlocksPage() {
         </button>
       </nav>
 
-      <div className="rounded-2xl border border-gray-200 bg-white p-6 lg:p-8">
-        <div id="tab-preview" role="tabpanel" aria-labelledby="tab-item-1">
-          <p className="text-gray-500">
-            This is the <em className="font-semibold text-gray-800">first</em>{' '}
-            setting&apos;s tab body.
-          </p>
-        </div>
+      <div className="grow rounded-2xl border border-gray-200 bg-white p-6 lg:p-8">
+        <PersonalInformationForm />
+
         <div
           id="tab-2"
           className="hidden"
