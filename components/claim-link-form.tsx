@@ -6,12 +6,12 @@ export function ClaimLinkForm() {
           htmlFor="input-name"
           className="block text-sm font-medium text-black"
         >
-          Email
+          Full name
         </label>
         <input
           type="text"
           id="input-name"
-          className="focus:border-accent focus-within:outline-accent focus:ring-accent block w-full rounded-lg border border-gray-200 px-4 py-2.5 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
+          className="focus:border-accent focus:ring-accent block w-full rounded-lg border border-gray-200 px-4 py-2.5 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
           placeholder="Enter your name"
         />
       </div>
@@ -31,7 +31,7 @@ export function ClaimLinkForm() {
             type="text"
             name="hs-input-with-add-on-url"
             id="hs-input-with-add-on-url"
-            className="focus:border-accent focus-within:outline-accent focus:ring-accent block w-full rounded-e-lg border border-gray-200 px-4 py-2.5 pe-11 focus:z-10 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
+            className="focus:border-accent focus:ring-accent block w-full rounded-e-lg border border-gray-200 px-4 py-2.5 pe-11 focus:z-10 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
             placeholder="lorem_ipsum"
           />
         </div>

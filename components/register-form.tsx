@@ -38,7 +38,7 @@ export function RegisterForm() {
           <input
             type="email"
             id="input-email"
-            className="focus:border-accent focus-within:outline-accent focus:ring-accent block w-full rounded-lg border border-gray-200 px-4 py-2.5 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
+            className="focus:border-accent focus:ring-accent block w-full rounded-lg border border-gray-200 px-4 py-2.5 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
             placeholder="loremipsum@gmail.com"
           />
         </div>
@@ -54,7 +54,7 @@ export function RegisterForm() {
             <input
               id="hs-toggle-password"
               type="password"
-              className="focus:border-accent focus-within:outline-accent focus:ring-accent block w-full rounded-lg border border-gray-200 py-2.5 pe-10 ps-4 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
+              className="focus:border-accent focus:ring-accent block w-full rounded-lg border border-gray-200 py-2.5 pe-10 ps-4 disabled:pointer-events-none disabled:opacity-50 sm:py-3 sm:text-sm"
               placeholder="Enter your password"
             />
             <button
